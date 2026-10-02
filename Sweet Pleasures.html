@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sweet Pleasures</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap');
+:root{--pink:#f7c8d8;--pink2:#fde8ef;--rose:#d986a2;--cream:#fffaf7;--brown:#6b4d52;--white:#fff;}
+*{box-sizing:border-box} body{margin:0;background:var(--cream);color:var(--brown);font-family:Poppins,sans-serif}.root{min-height:100vh;background:var(--cream)}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;background:rgba(255,250,247,.94);position:sticky;top:0;z-index:5;border-bottom:1px solid #f3dbe2}.logo{font:700 30px 'Baloo 2';color:var(--rose)}nav a{color:var(--brown);text-decoration:none;margin-left:25px;font-size:14px}
+.hero{min-height:520px;padding:70px 7%;display:grid;grid-template-columns:1fr 1fr;align-items:center;background:linear-gradient(120deg,#fff7f9,#fbdbe5)}.eyebrow{letter-spacing:2px;text-transform:uppercase;font-size:12px;color:var(--rose);font-weight:600}.hero h1{font:700 clamp(52px,7vw,82px)/.9 'Baloo 2';margin:12px 0;color:#a85f7a}.hero p{max-width:520px;line-height:1.8;font-size:16px}.btn{display:inline-block;margin-top:16px;padding:13px 23px;background:var(--rose);color:white;border-radius:30px;text-decoration:none;font-weight:600;box-shadow:0 8px 20px #d986a244}.hero-art{height:360px;border-radius:38px;background:linear-gradient(145deg,#f5b9cd,#fff);display:flex;align-items:center;justify-content:center;font-size:120px;box-shadow:0 20px 50px #b9688030}
+section{padding:70px 7%}.title{text-align:center;font:700 42px 'Baloo 2';color:#a85f7a;margin:0}.sub{text-align:center;margin:6px auto 35px;max-width:650px;line-height:1.7}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.card{background:white;border:1px solid #f2dfe5;border-radius:24px;overflow:hidden;box-shadow:0 10px 25px #a85f7a12}.pic{height:190px;display:flex;align-items:center;justify-content:center;font-size:78px;background:var(--pink2)}.card:nth-child(2) .pic{background:#f8e4d8}.card:nth-child(3) .pic{background:#f7efd5}.card:nth-child(4) .pic{background:#e8ddf3}.card-body{padding:18px}.card h3{font:600 24px 'Baloo 2';margin:0;color:#9e5c76}.card p{font-size:13px;line-height:1.6;margin-bottom:0}.about{background:#fff1f5;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about-box{background:white;padding:35px;border-radius:30px}.about h2{font:700 40px 'Baloo 2';color:#a85f7a;margin-top:0}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.feature{padding:20px;border-radius:20px;background:#fff;border:1px solid #f2dfe5;text-align:center}.feature b{display:block;margin-bottom:6px}.reviews{background:linear-gradient(180deg,#fff,#fff1f5)}form{max-width:700px;margin:30px auto 0;background:white;padding:30px;border-radius:28px;box-shadow:0 10px 30px #a85f7a12}input,textarea{width:100%;padding:13px 15px;margin:7px 0 13px;border:1px solid #e7ccd5;border-radius:14px;font:inherit;color:var(--brown)}textarea{min-height:120px;resize:vertical}button{border:0;cursor:pointer;background:var(--rose);color:white;padding:13px 24px;border-radius:25px;font:600 15px Poppins}.thanks{display:none;text-align:center;color:#a85f7a;margin-top:15px;font-weight:600}footer{text-align:center;padding:30px;background:#a85f7a;color:white;font-size:13px} 
+@media(max-width:800px){nav a{display:none}.hero,.about{grid-template-columns:1fr}.hero{padding-top:45px}.hero-art{height:260px}.cards{grid-template-columns:1fr 1fr}.features{grid-template-columns:1fr}.title{font-size:35px}}
+@media(max-width:500px){.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="root">
+<nav><div class="logo">Sweet Pleasures ♡</div><div><a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#nosotros">Nosotros</a><a href="#opinion">Opiniones</a></div></nav>
+<header class="hero" id="inicio"><div><div class="eyebrow">postres artesanales · Lima</div><h1>Dulce, bonito<br>y hecho con amor.</h1><p>Postres artesanales deliciosos y accesibles, con ingredientes de buena calidad y opciones un poquito más saludables, sin dejar de disfrutar el sabor.</p><a class="btn" href="#productos">Ver nuestros postres</a></div><div class="hero-art">🍪</div></header>
+<section id="productos"><h2 class="title">Nuestros favoritos</h2><p class="sub">Pequeños placeres para compartir, regalar o simplemente darte un gustito.</p><div class="cards">
+<article class="card"><div class="pic">🍪</div><div class="card-body"><h3>Galletas</h3><p>Crujientes, caseras y con opciones de avena, frutos secos o cacao.</p></div></article>
+<article class="card"><div class="pic">🍫</div><div class="card-body"><h3>Brownies</h3><p>Suaves, chocolatosos y perfectos para acompañar una tarde dulce.</p></div></article>
+<article class="card"><div class="pic">🍰</div><div class="card-body"><h3>Queques</h3><p>Esponjosos y caseros, con sabores para todos los gustos.</p></div></article>
+<article class="card"><div class="pic">🤍</div><div class="card-body"><h3>Alfajores</h3><p>Suaves y delicados, ideales para regalar o compartir.</p></div></article>
+</div></section>
+<section class="about" id="nosotros"><div class="about-box"><h2>Un toque más saludable</h2><p>En Sweet Pleasures queremos encontrar ese punto medio: disfrutar de un postre rico y especial, incorporando ingredientes como avena, frutas, frutos secos o cacao cuando combinan bien con cada receta.</p><div class="features"><div class="feature">♡<b>Artesanal</b><small>Hecho con cariño</small></div><div class="feature">✿<b>Buena calidad</b><small>Ingredientes seleccionados</small></div><div class="feature">☁<b>Accesible</b><small>Para disfrutar sin complicarse</small></div></div></div><div class="hero-art">🧁</div></section>
+<section class="reviews" id="opinion"><h2 class="title">Queremos escucharte ♡</h2><p class="sub">Tu opinión nos ayuda a mejorar nuestros sabores, presentaciones y experiencia de compra.</p><form id="form"><label>Tu nombre</label><input required placeholder="¿Cómo te llamas?"><label>Tu opinión</label><textarea required placeholder="¿Qué te gustó? ¿Qué mejorarías? ¿Qué postre te gustaría ver?"></textarea><button type="submit">Enviar opinión</button><div class="thanks" id="thanks">¡Gracias por ayudarnos a mejorar! ♡</div></form></section>
+<footer>Sweet Pleasures · Postres artesanales en Lima · @sweetpleasures</footer>
+</div>
+<script>document.getElementById('form').addEventListener('submit',e=>{e.preventDefault();document.getElementById('thanks').style.display='block';e.target.reset()});</script>
+</body></html>
